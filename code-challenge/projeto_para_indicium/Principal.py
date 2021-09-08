@@ -8,6 +8,16 @@ from Classe_criadora_de_comandos_SQL_para_tabelas_em_arquivos import *
 # ATENÇÃO pela criação de pastas pedir caminhos exatos talvez
 # seja nessario ajustar os caminhos, fora isso tudo foi testado e
 # esta funcionando.
+# Solução simples para executar o código python
+# Devido a peculiaridade de caminhos exatos para a criação de pastas
+# Passo 1: Crie uma pasta intitulada como 'Organização da Area de Trabalho Zero ILumi'
+# no 'desktop'.
+# Passo 2: Dentro de 'Organização da Area de Trabalho Zero ILumi' crie outra pasta intitulada
+# como 'Teste pratico indicium'
+# Passo 3: Araste a pasta do projeto intitulada como 'code-challenge' para dentro da pasta
+# intitulada como 'Teste pratico indicium' e pronto.
+# Explicação: Agora você esta usando o mesmo caminho que eu usei então funcionara sem
+# alterar o código.
 
 if __name__ == '__main__':
     criador_de_arquivos = Criador_de_pastas_com_a_data_atual_e_arquivos_sql()
